@@ -1,12 +1,76 @@
-# React + Vite
+# SoftSell - Software License Resale Platform 🧾💼
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SoftSell** is a fictional software license resale platform built as a single-page responsive marketing website. It demonstrates the ability to quickly ship a functional and visually appealing frontend product using modern web technologies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features Implemented
 
-## Expanding the ESLint configuration
+### ✅ Core Sections
+- **Hero Section**  
+  - Headline, subheading, CTA button with animated typography effect
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **How It Works**  
+  - Three-step process with icons: Upload License → Get Valuation → Get Paid
+
+- **Why Choose Us**  
+  - Highlight tiles with icons for benefits like Trust, Speed, and Security
+
+- **Testimonials**  
+  - Two dummy customer reviews with name, role, and company
+
+- **Contact / Lead Form**  
+  - Name, Email, Company, License Type (dropdown), Message with frontend validation
+
+---
+
+### 🎨 Design Features
+- Responsive layout using **Tailwind CSS**
+- Clean card-based sections with spacing and shadowing
+- Animated text effects in Hero section
+- Color Themes:
+  - Default Purple Theme
+- **Logo** designed and added to navbar
+---
+
+### 🤖 AI-Powered Chat Widget
+- Integrated using Mock Key
+- Preloaded with example questions like:
+  - "How do I sell my license?"
+  - "How long does the valuation take?"
+
+---
+
+## 🧠 Design Choices
+
+- **Framework**: React + Vite for fast development and hot reloading
+- **Styling**: Tailwind CSS for utility-first responsiveness
+- **Theme Toggle**: Built-in Tailwind support using class-based toggling
+- **Chat**: Kept lightweight and usable with OpenAI wrapper for scalability
+- **Build & Deployment**: Optimized for Vercel and Netlify using `vite.config.js` and optional `vercel.json`
+
+---
+
+## ⏱️ Time Spent
+
+| Task | Time |
+|------|------|
+| Project setup (React, Tailwind, Vite) | 20 mins |
+| Core section development | 2 hrs |
+| Theme toggle + navbar | 30 mins |
+| Typography effect & animations | 30 mins |
+| AI Chat widget integration | 1 hr |
+| Build, test, and deploy | 1 hr |
+| Debugging (build issues, deployment) | 45 mins |
+
+**Total Time Spent**: ~6 hours
+
+---
+
+## 📦 How to Run Locally
+
+```bash
+git clone https://github.com/yourusername/softsell.git
+cd softsell/softsell
+npm install
+npm run dev
