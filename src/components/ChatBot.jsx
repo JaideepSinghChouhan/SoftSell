@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+
 
 const exampleQuestions = [
   "How do I sell my license?",
