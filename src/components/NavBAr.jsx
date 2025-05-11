@@ -1,17 +1,19 @@
 export default function NavBar(){
     return(
-        <header className="flex justify-around gap-200 w-full absolute top-0 mt-5">
-        <h1 className="text-3xl font-extrabold text-blue-600 tracking-tight">
-        <span className="text-gray-100">Soft</span><span className="text-black">Sell</span>
+        <header className="w-full absolute top-0 left-0 z-10 bg-transparent">
+      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+          <span className="text-gray-100">Soft</span>
+          <span className="text-black">Sell</span>
         </h1>
-        <div className="flex items-center gap-4">
-          <a
-        href='#contact' 
-        className="bg-white text-purple-600 font-semibold py-2 px-6 rounded-full hover:bg-blue-100 transition">
+        <a
+          href="#contact"
+          className="bg-white text-purple-600 font-semibold py-2 px-5 sm:px-6 rounded-full hover:bg-blue-100 transition text-sm sm:text-base"
+        >
           Sell
         </a>
-        </div>
-        </header>
+      </div>
+    </header>
         
     )
 }
